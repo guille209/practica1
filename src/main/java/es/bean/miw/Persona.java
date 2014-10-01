@@ -21,5 +21,8 @@ public class Persona {
         this.phoneNumber = phoneNumber;
         this.direccion = direccion;
     }
+    public void caminar(){
+        
+    }
 
 }
