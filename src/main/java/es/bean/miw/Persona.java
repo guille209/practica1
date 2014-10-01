@@ -1,11 +1,11 @@
 package es.bean.miw;
 
 public class Persona {
-private String dni;
+private Long dni;
 private String nombre;
 private String apellidos;
 
-public Persona(String dni,String nombre){
+public Persona(Long dni,String nombre){
     this.dni = dni;
     this.nombre = nombre;
 }
