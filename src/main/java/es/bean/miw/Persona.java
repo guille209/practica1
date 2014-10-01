@@ -27,5 +27,8 @@ public class Persona {
     public void correr(){
         
     }
+    public void saltar(){
+        
+    }
 
 }
