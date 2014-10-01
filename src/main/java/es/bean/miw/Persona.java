@@ -1,19 +1,25 @@
 package es.bean.miw;
 
 public class Persona {
-private String dni;
-private String nombre;
-private String apellido;
-private String phoneNumber;
-private String direccion;
+    private Long dni;
 
+    private String nombre;
 
-public Persona(String dni,String nombre,String apellido,String phoneNumber,String direccion){
-    this.dni = dni;
-    this.nombre = nombre;
-    this.apellido = apellido;
-    this.phoneNumber=phoneNumber;
-    this.direccion=direccion;
-}
+    private String apellido;
+
+    private String phoneNumber;
+
+    private String direccion;
+
+    private String apellidos;
+
+    public Persona(Long dni, String nombre, String apellido, String phoneNumber, String direccion) {
+
+        this.dni = dni;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.phoneNumber = phoneNumber;
+        this.direccion = direccion;
+    }
 
 }
