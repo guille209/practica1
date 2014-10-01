@@ -8,9 +8,11 @@ private String phoneNumber;
 private String direccion;
 
 
-public Persona(String dni,String nombre){
+public Persona(String dni,String nombre,String apellido,String phoneNumber){
     this.dni = dni;
     this.nombre = nombre;
+    this.apellido = apellido;
+    this.phoneNumber=phoneNumber;
 }
 
 }
